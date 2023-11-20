@@ -61,3 +61,1155 @@ Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac
 
 
 Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2023-11-19 19:34:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:52:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_flash.erb (0.3ms)
+Completed 200 OK in 140ms (Views: 137.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2023-11-19 20:53:02 -0500
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.erb within layouts/application (28.4ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 35ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:56:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:17: syntax error, unexpected ( arg, expecting ')'
+...", @ratings_to_show. Include? (rating), class: 'form-check-i...
+...                              ^
+/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:17: syntax error, unexpected ',', expecting ')'
+...ngs_to_show. Include? (rating), class: 'form-check-input' );...
+...                              ^):
+  app/views/movies/index.html.erb:17: syntax error, unexpected ( arg, expecting ')'
+  app/views/movies/index.html.erb:17: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (18.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:56:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:14: syntax error, unexpected ( arg, expecting ')'
+...", @ratings_to_show. Include? (rating), class: 'form-check-i...
+...                              ^
+/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:14: syntax error, unexpected ',', expecting ')'
+...ngs_to_show. Include? (rating), class: 'form-check-input' );...
+...                              ^):
+  app/views/movies/index.html.erb:14: syntax error, unexpected ( arg, expecting ')'
+  app/views/movies/index.html.erb:14: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:57:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:15: syntax error, unexpected ( arg, expecting ')'
+...1", @ratings_to_show.Include? (rating), class: 'form-check-i...
+...                              ^
+/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:15: syntax error, unexpected ',', expecting ')'
+...ings_to_show.Include? (rating), class: 'form-check-input' );...
+...                              ^):
+  app/views/movies/index.html.erb:15: syntax error, unexpected ( arg, expecting ')'
+  app/views/movies/index.html.erb:15: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (14.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:57:51 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   Include
+     8:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___2589851537631126958_47402647643280'
+  app/views/movies/index.html.erb:8:in `_app_views_movies_index_html_erb___2589851537631126958_47402647643280'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (19.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:58:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (16.3ms)
+  Rendered layouts/_flash.erb (0.3ms)
+Completed 200 OK in 120ms (Views: 118.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:58:16 -0500
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2023-11-19 20:58:16 -0500
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2023-11-19 20:58:16 -0500
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2023-11-19 20:58:16 -0500
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 127.0.0.1 at 2023-11-19 20:58:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:59:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (9.9ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9:   <% @all_ratings.each do |rating| %>
+    10:     <div class="form-check form-check-inline">
+    11:       <%= label_tag "ratings[#{rating}]", rating, class: 'form-check-label' %>
+    12:       <%= check_box_tag "ratings[#{rating}]", "1", @ratings_to_show.include?(rating), class: 'form-check-input' %>
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__3626096451298057659_47327006089120'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__3626096451298057659_47327006089120'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 20:59:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8:   include
+     9:   <% @all_ratings.each do |rating| %>
+    10:     <div class="form-check form-check-inline">
+    11:       <%= label_tag "ratings[#{rating}]", rating, class: 'form-check-label' %>
+    12:       <%= check_box_tag "ratings[#{rating}]", "1", @ratings_to_show.include?(rating), class: 'form-check-input' %>
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__3669634250536264130_47379598001320'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__3669634250536264130_47379598001320'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:02:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:17: syntax error, unexpected ( arg, expecting ')'
+...1", @ratings_to_show.Include? (rating), class: 'form-check-i...
+...                              ^
+/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:17: syntax error, unexpected ',', expecting ')'
+...ings_to_show.Include? (rating), class: 'form-check-input' );...
+...                              ^):
+  app/views/movies/index.html.erb:17: syntax error, unexpected ( arg, expecting ')'
+  app/views/movies/index.html.erb:17: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:05:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/models/movie.rb:3: syntax error, unexpected end-of-input, expecting end):
+  app/models/movie.rb:3: syntax error, unexpected end-of-input, expecting end
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:05:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:17: syntax error, unexpected ( arg, expecting ')'
+...1", @ratings_to_show.Include? (rating), class: 'form-check-i...
+...                              ^
+/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/views/movies/index.html.erb:17: syntax error, unexpected ',', expecting ')'
+...ings_to_show.Include? (rating), class: 'form-check-input' );...
+...                              ^):
+  app/views/movies/index.html.erb:17: syntax error, unexpected ( arg, expecting ')'
+  app/views/movies/index.html.erb:17: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:06:16 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8: 
+     9: Include:
+    10: @all_ratings = ['G','PG']
+    11: <% @all_ratings.each do |rating| %>
+    12: 
+    13: <div class="form-check form-check-inline">
+    14: 
+  app/views/movies/index.html.erb:11:in `block in _app_views_movies_index_html_erb___2632555509717266762_69885564965920'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___2632555509717266762_69885564965920'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (18.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:07:38 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (11.3ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8: 
+     9: Include:
+    10: 
+    11: <% @all_ratings.each do |rating| %>
+    12: 
+    13: <div class="form-check form-check-inline">
+    14: 
+  app/views/movies/index.html.erb:11:in `block in _app_views_movies_index_html_erb___1436215638661254223_47056819644300'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___1436215638661254223_47056819644300'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:08:29 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8: 
+     9: Include:
+    10: 
+    11: <% @all_ratings.each do |rating| %>
+    12: 
+    13: <div class="form-check form-check-inline">
+    14: 
+  app/views/movies/index.html.erb:11:in `block in _app_views_movies_index_html_erb___3745387227578433367_70258589586740'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___3745387227578433367_70258589586740'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:15:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/models/movie.rb:6: syntax error, unexpected end-of-input, expecting end):
+  app/models/movie.rb:6: syntax error, unexpected end-of-input, expecting end
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:15:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___762484004840568388_70213794419140'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___762484004840568388_70213794419140'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:17:21 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__3938540122239118521_47231503834320'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__3938540122239118521_47231503834320'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:19:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/gabriel/Documentos/GitHub/PC3-CC3S2/rottenpotatoes-rails-intro/app/models/movie.rb:7: syntax error, unexpected end-of-input, expecting end):
+  app/models/movie.rb:7: syntax error, unexpected end-of-input, expecting end
+  app/controllers/movies_controller.rb:10:in `index'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (20.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:19:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (13.7ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__377700127326939260_47238169083560'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__377700127326939260_47238169083560'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (22.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:21:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__2144604132456271323_47408245512160'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__2144604132456271323_47408245512160'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:21:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___171330762070362186_47282003387360'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___171330762070362186_47282003387360'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:25:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___3867101792939909792_69996294591540'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___3867101792939909792_69996294591540'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:27:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (16.5ms)
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__535281111477333027_47349427142520'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__535281111477333027_47349427142520'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:27:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb__264866305401874111_47389727071760'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__264866305401874111_47389727071760'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:28:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___1349862368182601511_70197923126720'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___1349862368182601511_70197923126720'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (17.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:30:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: 
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___3474672146917161447_46995725012180'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___3474672146917161447_46995725012180'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (26.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:30:37 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (14.8ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `include?' for nil:NilClass):
+    13: 
+    14: <%= label_tag "ratings[#{rating}]", rating, class: 'form-check-label' %>
+    15: 
+    16: <%= check_box_tag "ratings[#{rating}]", "1", @ratings_to_show.include?(rating), class: 'form-check-input' %>
+    17: 
+    18: </div> <% end %> <%= submit_tag 'Refresh', id: 'ratings_submit', class: 'btn btn-primary' %>
+    19: 
+  app/views/movies/index.html.erb:16:in `block (2 levels) in _app_views_movies_index_html_erb__2885084292691767147_46950714760880'
+  app/views/movies/index.html.erb:10:in `each'
+  app/views/movies/index.html.erb:10:in `block in _app_views_movies_index_html_erb__2885084292691767147_46950714760880'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb__2885084292691767147_46950714760880'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:37:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.1ms)
+
+NoMethodError (undefined method `attr_accessible' for #<Class:0x0000558a392a2178>
+Did you mean?  attr_accessor):
+  app/models/movie.rb:2:in `<class:Movie>'
+  app/models/movie.rb:1:in `<top (required)>'
+  app/controllers/movies_controller.rb:16:in `index'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:38:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT DISTINCT "movies"."rating" FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.4ms)
+
+ActionView::Template::Error (undefined method `include?' for nil:NilClass):
+    13: 
+    14: <%= label_tag "ratings[#{rating}]", rating, class: 'form-check-label' %>
+    15: 
+    16: <%= check_box_tag "ratings[#{rating}]", "1", @ratings_to_show.include?(rating), class: 'form-check-input' %>
+    17: 
+    18: </div> <% end %> <%= submit_tag 'Refresh', id: 'ratings_submit', class: 'btn btn-primary' %>
+    19: 
+  app/views/movies/index.html.erb:16:in `block (2 levels) in _app_views_movies_index_html_erb___4434529121856219670_47070981478060'
+  app/views/movies/index.html.erb:10:in `each'
+  app/views/movies/index.html.erb:10:in `block in _app_views_movies_index_html_erb___4434529121856219670_47070981478060'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___4434529121856219670_47070981478060'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:44:51 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     6: <table class="table table-striped col-md-12" id="movies">
+     7:   <%= form_tag movies_path, method: :get, id: 'ratings_form' do %>
+     8: Include
+     9: <% @all_ratings.each do |rating| %>
+    10: 
+    11: <div class="form-check form-check-inline">
+    12: 
+  app/views/movies/index.html.erb:9:in `block in _app_views_movies_index_html_erb___3273454827813886401_47026071108360'
+  app/views/movies/index.html.erb:7:in `_app_views_movies_index_html_erb___3273454827813886401_47026071108360'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:47:17 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: 
+     6:   Include:
+     7: 
+     8:   <% @all_ratings.each do |rating| %>
+     9: 
+    10:   <div class="form-check form-check-inline">
+    11: 
+  app/views/movies/index.html.erb:8:in `block in _app_views_movies_index_html_erb__8448034546404924_70025520491420'
+  app/views/movies/index.html.erb:4:in `_app_views_movies_index_html_erb__8448034546404924_70025520491420'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (7.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (13.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:48:30 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: 
+     6:   Include:
+     7: 
+     8:   <% @all_ratings.each do |rating| %>
+     9: 
+    10:   <div class="form-check form-check-inline">
+    11: 
+  app/views/movies/index.html.erb:8:in `block in _app_views_movies_index_html_erb__3784433234671217663_47232575504020'
+  app/views/movies/index.html.erb:4:in `_app_views_movies_index_html_erb__3784433234671217663_47232575504020'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (9.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:49:08 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (10.6ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: 
+     6:   Include:
+     7: 
+     8:   <% @all_ratings.each do |rating| %>
+     9: 
+    10:   <div class="form-check form-check-inline">
+    11: 
+  app/views/movies/index.html.erb:8:in `block in _app_views_movies_index_html_erb__4345811597127377551_47292544242400'
+  app/views/movies/index.html.erb:4:in `_app_views_movies_index_html_erb__4345811597127377551_47292544242400'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.5ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (8.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:53:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  Rendered movies/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     5: 
+     6:   Include:
+     7: 
+     8:   <% @all_ratings.each do |rating| %>
+     9: 
+    10:   <div class="form-check form-check-inline">
+    11: 
+  app/views/movies/index.html.erb:8:in `block in _app_views_movies_index_html_erb___412894620367251449_70137692967360'
+  app/views/movies/index.html.erb:4:in `_app_views_movies_index_html_erb___412894620367251449_70137692967360'
+
+
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/actionpack-4.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/gabriel/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (19.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 21:56:05 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (16.4ms)
+  Rendered layouts/_flash.erb (0.3ms)
+Completed 200 OK in 144ms (Views: 138.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 22:02:06 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_flash.erb (0.3ms)
+Completed 200 OK in 139ms (Views: 133.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2023-11-19 22:13:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_flash.erb (0.3ms)
+Completed 200 OK in 150ms (Views: 144.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?sort=name" for 127.0.0.1 at 2023-11-19 22:13:32 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"name"}
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY "movies"."title" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?sort=date" for 127.0.0.1 at 2023-11-19 22:13:34 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"date"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies"  ORDER BY "movies"."release_date" ASC
+  Rendered movies/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?sort=name" for 127.0.0.1 at 2023-11-19 22:13:37 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"sort"=>"name"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"  ORDER BY "movies"."title" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BG%5D=1&commit=Refresh" for 127.0.0.1 at 2023-11-19 22:13:41 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"G"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'G'  ORDER BY "movies"."title" ASC
+  Rendered movies/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG%5D=1&commit=Refresh" for 127.0.0.1 at 2023-11-19 22:13:44 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG"=>"1"}, "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG'  ORDER BY "movies"."title" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 127.0.0.1 at 2023-11-19 22:25:21 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG'  ORDER BY "movies"."title" ASC
+  Rendered movies/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 127.0.0.1 at 2023-11-19 22:25:25 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG'  ORDER BY "movies"."title" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&ratings%5BPG-13%5D=1&commit=Refresh" for 127.0.0.1 at 2023-11-19 22:25:40 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "ratings"=>{"PG-13"=>"1"}, "commit"=>"Refresh"}
+  [1m[35mMovie Load (0.1ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG-13'  ORDER BY "movies"."title" ASC
+  Rendered movies/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_flash.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies?utf8=%E2%9C%93&commit=Refresh" for 127.0.0.1 at 2023-11-19 22:26:02 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Refresh"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG-13'  ORDER BY "movies"."title" ASC[0m
+  Rendered movies/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?ratings%5BPG-13%5D=1&sort=date" for 127.0.0.1 at 2023-11-19 22:26:10 -0500
+Processing by MoviesController#index as HTML
+  Parameters: {"ratings"=>{"PG-13"=>"1"}, "sort"=>"date"}
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" = 'PG-13'  ORDER BY "movies"."release_date" ASC
+  Rendered movies/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_flash.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 18.3ms | ActiveRecord: 0.6ms)
