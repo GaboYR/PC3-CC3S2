@@ -216,3 +216,4 @@ Hay un problema al momento de realizar un filtro, lo que pasa es que no guarda l
 
 ### Final
 Todo ha sido trabajado en una rama, para integrarla a la rama main debemos primero hacer los commits y push en la rama y despues cambiar a la rama main, despues con el comando `git merge rama_name`, en este caso, mi rama se llama `gabriel`, despues hacemos un `push` al main y ya veriamos los cambios en remoto.
+![scale = 0.5](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/merge_main.png)
