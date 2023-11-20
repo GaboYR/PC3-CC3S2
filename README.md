@@ -3,6 +3,10 @@
 Clonamos el repositorio en una carpeta y creamos una rama, en este caso la rama se llamara gabriel.
 Posteriormente ejecutamos **bundle install --without production** y **rake db:migrate**.
 
+![scale = 0.8](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/bundle.png)
+
+![scale = .8](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/rake.png)
+
 #### Pregunta: ¿Cómo decide Rails dónde y cómo crear la base de datos de desarrollo? (Sugerencia: verifica los subdirectorios db y config)
 En ruby-on-rails se crea la base de datos en desarrollo segun el archivo **config/database.yml**, dentro de este file podemos ver 
 ```yml
@@ -70,6 +74,8 @@ movies.each do |movie|
 end
 ```
 Ahora una vista previa del rails en localhost:
+
+![scale = 0.8](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/rails_server.png)
 
 ### Parte 1: filtrar la lista de películas por clasificación:
 Primero modificamos el archivo index.html.erb :
