@@ -149,6 +149,23 @@ class MoviesController < ApplicationController
   
     # Restaurar parámetros de sesión si no se proporcionan nuevos
     params[:ratings] ||= session[:ratings]
+  
+end
+```
+### Pull request
+
+### Parte 2: ordenar las peliculas
+Tenemos que ordenar segun dos columnas, **Movie title** y **Release date**.lo qye podemos hacer es modificar movies_controller.rb, es decir, hacer algun cambio dentro de la clase controladora.
+Podemos agregar lo siguiente:
+```ruby
+def index
+    @all_ratings = Movie.all_ratings
+  
+    # Limpiar la sesión si la URL no contiene "movies"
+    session.clear unless request.original_url.include?('movies')
+  
+    # Restaurar parámetros de sesión si no se proporcionan nuevos
+    params[:ratings] ||= session[:ratings]
     params[:sort] ||= session[:sort]
   
     # Inicializar variables de instancia para las clases de columnas
@@ -175,7 +192,14 @@ class MoviesController < ApplicationController
     session[:ratings] = params[:ratings]
     session[:sort] = sort_column
   end
-  
-end
 ```
-### Pull request
+
+En este nuevo codigo lo que vemos es:
+1. Restauracion de los parametros de sesion.
+2. Inicializacion de variables de instancia para ambas columnas(como son solo 2,podemos usar 2 variables,si llegan a ser mas, trabajariamos con un arreglo)
+3. Obtencion de las clasificaciones de instancia para las clases de columna
+4. Ordenamiento, y un case para tomar segun columna.
+5. Finalmente se actualizan los parametros de sesion.
+
+### Parte 3: Mostrar las cosas en el orden correcto.
+Hay un problema al momento de realizar un filtro, lo que pasa es que no guarda lo previamente marcado, sino que trabaja como si fuese una nueva sesion.
