@@ -3,6 +3,10 @@
 Clonamos el repositorio en una carpeta y creamos una rama, en este caso la rama se llamara gabriel.
 Posteriormente ejecutamos **bundle install --without production** y **rake db:migrate**.
 
+![scale = 0.8](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/bundle.png)
+
+![scale = .8](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/rake.png)
+
 #### Pregunta: ¿Cómo decide Rails dónde y cómo crear la base de datos de desarrollo? (Sugerencia: verifica los subdirectorios db y config)
 En ruby-on-rails se crea la base de datos en desarrollo segun el archivo **config/database.yml**, dentro de este file podemos ver 
 ```yml
@@ -70,6 +74,8 @@ movies.each do |movie|
 end
 ```
 Ahora una vista previa del rails en localhost:
+
+![scale = 0.8](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/rails_server.png)
 
 ### Parte 1: filtrar la lista de películas por clasificación:
 Primero modificamos el archivo index.html.erb :
@@ -152,6 +158,10 @@ class MoviesController < ApplicationController
   
 end
 ```
+Veamos el cambio.
+
+![scale = 0,75](https://github.com/GaboYR/PC3-CC3S2/blob/main/images/rails_s_PG13.png)
+Podemos probar mas combinaciones si queremos, ya se lo dejamos al ususario.
 ### Pull request
 
 ### Parte 2: ordenar las peliculas
@@ -203,3 +213,6 @@ En este nuevo codigo lo que vemos es:
 
 ### Parte 3: Mostrar las cosas en el orden correcto.
 Hay un problema al momento de realizar un filtro, lo que pasa es que no guarda lo previamente marcado, sino que trabaja como si fuese una nueva sesion.
+
+### Final
+Todo ha sido trabajado en una rama, para integrarla a la rama main debemos primero hacer los commits y push en la rama y despues cambiar a la rama main, despues con el comando `git merge rama_name`, en este caso, mi rama se llama `gabriel`, despues hacemos un `push` al main y ya veriamos los cambios en remoto.
